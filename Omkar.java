@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.sound.sampled.Port;
 public class Omkar {
     public static int averageOfNumbers(int a, int b, int c){
         int avg = (a+b+c)/3;
@@ -49,13 +48,15 @@ public class Omkar {
         // it should display the count of positive, negative and zeros entered. 
 
         Scanner sc = new Scanner(System.in);
-        int positiveCount = 0;
-        int negativeCount = 0;
-        int zeroCount = 0;
+        
 
         System.out.println("how many numbers you want to enter: ");
         int numInput = sc.nextInt();
         
+        int positiveCount = 0;
+        int negativeCount = 0;
+        int zeroCount = 0;
+
         for (int i = 1; i<= numInput; i++){
 
             System.out.println("Enter number: ");
@@ -109,10 +110,5 @@ public class Omkar {
         // int avg = averageOfNumbers(a, b, c);
         // System.out.println(avg);
 
-
-
-
-
     }
-    
 }
