@@ -8,11 +8,15 @@ public class Omkar {
 
     // Write a function to print the sum of all odd numbers from 1 to n.
 
-    public static int sumOfOdd(int a){
+    public static int sumOfEvenOdd(int a){
         int sum = 0;
+        int odd = 0;
         for(int i=0; i<=a; i++) {
             if (i % 2 != 0) {
                 sum = sum + i;
+            }
+            else {
+                odd = odd + i;
             }
         }
         return sum; 
