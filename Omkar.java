@@ -48,33 +48,46 @@ public class Omkar {
     }
     public static void main(String[] args) {
 
+
+        System.out.println("HEllo world!");
+//        program to find area of circle
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter radius of circle: ");
+        double radius = sc.nextDouble();
+
+        //to calculate area of circle
+        double areaOfCircle = 3.14 * radius * radius;
+        System.out.println("Area of circle is: " + areaOfCircle);
+
+
         // Write a program to enter the numbers till the user wants and at the end 
         // it should display the count of positive, negative and zeros entered. 
 
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
         
 
-        System.out.println("how many numbers you want to enter: ");
-        int numInput = sc.nextInt();
-        
-        int positiveCount = 0;
-        int negativeCount = 0;
-        int zeroCount = 0;
-
-        for (int i = 1; i<= numInput; i++){
-
-            System.out.println("Enter number: ");
-            int num = sc.nextInt();            
-    
-            if (num>0) {
-                positiveCount += 1;
-            } else if (num<0) {
-                negativeCount += 1;
-            } else{
-                zeroCount += 1;
-            }
-        }
-        System.out.println("positive count is:" + positiveCount + " negative count is: " + negativeCount + " zero count is: " +zeroCount);
+//        System.out.println("how many numbers you want to enter: ");
+//        int numInput = sc.nextInt();
+//
+//        int positiveCount = 0;
+//        int negativeCount = 0;
+//        int zeroCount = 0;
+//
+//        for (int i = 1; i<= numInput; i++){
+//
+//            System.out.println("Enter number: ");
+//            int num = sc.nextInt();
+//
+//            if (num>0) {
+//                positiveCount += 1;
+//            } else if (num<0) {
+//                negativeCount += 1;
+//            } else{
+//                zeroCount += 1;
+//            }
+//        }
+//        System.out.println("positive count is:" + positiveCount + " negative count is: " + negativeCount + " zero count is: " +zeroCount);
 
 
 
