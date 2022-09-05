@@ -31,6 +31,7 @@ public class Omkar {
         } 
     }   
 
+
     // Write a function that takes in the radius as input and returns the circumference of a circle.
 
     public static double circumferenceOfCircle(double a){
@@ -48,7 +49,7 @@ public class Omkar {
     }
     public static void main(String[] args) {
 
-
+// scanner takes the input from keyboard
         System.out.println("HEllo world!");
 //        program to find area of circle
 
