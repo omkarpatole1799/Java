@@ -1,3 +1,4 @@
+// importing all function
 import java.util.*;
 
 public class Omkar {
